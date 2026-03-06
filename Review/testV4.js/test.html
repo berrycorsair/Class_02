@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JavaScript Final Exam Practice</title>
+  <link rel="stylesheet" href="test.css" />
+  <style>
+    
+    #quizContainer { display: none; }
+    #timer { font-weight: bold; margin: 0.5rem 0 1rem; }
+  </style>
+</head>
+<body>
+  <h1>JavaScript Final Exam Quiz</h1>
+
+  <!-- Timer UI -->
+  <div id="timer">00:00</div>
+  <button id="startBtn" type="button" onclick="startTimer()">Start Timer</button>
+
+  
+  <div id="quizContainer">
+    <form id="quizForm"></form>
+    <button type="button" onclick="submitAnswers()">Submit</button>
+    <div id="result"></div>
+  </div>
+
+  
+  <script src="test.js" defer></script>
+</body>
+</html>
+
+
