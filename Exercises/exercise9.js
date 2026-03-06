@@ -23,7 +23,7 @@
 
 
 // 3) Write an arrow function called isOdd that returns true if a number is odd.
-//    Test it with 5 and 8.
+
 
 
 
